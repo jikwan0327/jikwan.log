@@ -1,0 +1,4 @@
+gatsby-browser.js
+gatsby-config.ts
+gatsby-node.js
+gatsby-ssr.js
