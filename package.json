@@ -16,7 +16,10 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
         "gatsby": "^5.13.7",
+        "gatsby-plugin-emotion": "^8.13.1",
         "gatsby-plugin-react-helmet": "^6.13.1",
         "gatsby-plugin-sharp": "^5.13.1",
         "gatsby-plugin-typescript": "^5.13.1",
