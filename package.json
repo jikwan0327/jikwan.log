@@ -1,44 +1,51 @@
 {
-    "name": "jikwan-blog",
-    "version": "1.0.0",
-    "private": true,
-    "description": "jikwan-blog",
-    "author": "jikwan0327",
-    "keywords": [
-        "gatsby"
-    ],
-    "scripts": {
-        "develop": "gatsby develop",
-        "start": "gatsby develop",
-        "build": "gatsby build",
-        "serve": "gatsby serve",
-        "clean": "gatsby clean",
-        "typecheck": "tsc --noEmit"
-    },
-    "dependencies": {
-        "@emotion/react": "^11.13.3",
-        "@emotion/styled": "^11.13.0",
-        "gatsby": "^5.13.7",
-        "gatsby-plugin-emotion": "^8.13.1",
-        "gatsby-plugin-react-helmet": "^6.13.1",
-        "gatsby-plugin-sharp": "^5.13.1",
-        "gatsby-plugin-typescript": "^5.13.1",
-        "gatsby-transformer-sharp": "^5.13.1",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-helmet": "^6.1.0"
-    },
-    "devDependencies": {
-        "@types/node": "^20.11.19",
-        "@types/react": "^18.2.55",
-        "@types/react-dom": "^18.2.19",
-        "@typescript-eslint/eslint-plugin": "^8.3.0",
-        "@typescript-eslint/parser": "^8.3.0",
-        "eslint": "^8.56.0",
-        "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-prettier": "^5.2.1",
-        "eslint-plugin-react": "^7.35.2",
-        "prettier": "^3.3.3",
-        "typescript": "^5.3.3"
-    }
+  "name": "jikwan-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jikwan-blog",
+  "author": "jikwan0327",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-emotion": "^8.13.1",
+    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-typescript": "^5.13.1",
+    "gatsby-remark-copy-linked-files": "^6.13.2",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^7.13.2",
+    "gatsby-remark-prismjs": "^7.13.2",
+    "gatsby-remark-smartypants": "^6.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.2",
+    "prettier": "^3.3.3",
+    "typescript": "^5.3.3"
+  }
 }
