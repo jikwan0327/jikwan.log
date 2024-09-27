@@ -58,6 +58,13 @@ module.exports = {
               rel: 'nofollow',
             },
           },
+          {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              name: `contents`,
+              path: `${__dirname}/contents`,
+            },
+          },
         ],
       },
     },
