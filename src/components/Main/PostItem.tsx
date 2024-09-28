@@ -2,15 +2,6 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { Link } from 'gatsby'
 
-type PostItemProps = {
-  title: string
-  date: string
-  categories: string[]
-  summary: string
-  thumbnail: string
-  link: string
-}
-
 const PostItemWrapper = styled(Link)`
   display: flex;
   flex-direction: column;
@@ -87,11 +78,28 @@ const Summary = styled.div`
   opacity: 0.8;
 `
 
-const PostItem = (props: PostItemProps) => {
-  const { title, date, categories, summary, thumbnail, link } = props
+type PostItemProps = {
+  title: string
+  date: string
+  categories: string[]
+  summary: string
+  thumbnail: {
+    publicURL: string
+  }
+  link: string
+}
+
+const PostItem = function ({
+  title,
+  date,
+  categories,
+  summary,
+  thumbnail: { publicURL },
+  link,
+}: PostItemProps) {
   return (
     <PostItemWrapper to={link}>
-      <ThumbnailImage src={thumbnail} alt="Post Item Image" />
+      <ThumbnailImage src={publicURL} alt="Post Item Image" />
 
       <PostItemContent>
         <Title>{title}</Title>
