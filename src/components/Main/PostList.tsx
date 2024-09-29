@@ -33,6 +33,10 @@ export type PostType = {
   }
 }
 
+type PostListProps = {
+  posts: PostListItemType[]
+}
+
 const PostList = function ({ posts }: PostListProps) {
   return (
     <PostListWrapper>
