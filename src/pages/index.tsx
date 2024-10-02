@@ -80,7 +80,7 @@ const IndexPage = ({
         selectedCategory={selectedCategory}
         categoryList={categoryList}
       />
-      <PostList posts={edges} />
+      <PostList selectedCategory={selectedCategory} posts={edges} />
       <Footer />
     </Container>
   )
