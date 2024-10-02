@@ -34,10 +34,11 @@ export type PostType = {
 }
 
 type PostListProps = {
+  selectedCategory: string
   posts: PostListItemType[]
 }
 
-const PostList = function ({ posts }: PostListProps) {
+const PostList = function ({ selectedCategory, posts }: PostListProps) {
   return (
     <PostListWrapper>
       {posts.map(({ node: { id, frontmatter } }: PostType) => (
